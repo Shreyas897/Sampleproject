@@ -16,7 +16,7 @@ public class FirstFrame implements ActionListener{
         frame.setBackground(Color.BLACK);
         frame.getContentPane().setBackground(Color.BLACK);
         button=new JButton("Click");
-        button.setBounds(120,20,50,20);
+        button.setBounds(115,20,70,20);
         button.addActionListener(this);
         myarea=new JTextArea("Welcome to my text area ");
         myarea.setBounds(50,50,200,200);
